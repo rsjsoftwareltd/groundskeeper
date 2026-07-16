@@ -63,6 +63,7 @@ Groundskeeper is built by **EJJ Software**, founded by two school IT professiona
 
 - Privacy notice: [groundskeeper.ejjsoftware.com/privacy](https://groundskeeper.ejjsoftware.com/privacy)
 - Website: [ejjsoftware.com](https://ejjsoftware.com)
+- Reporting security issues: see [SECURITY.md](SECURITY.md)
 
 ## Licence
 
