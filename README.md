@@ -2,7 +2,7 @@
 
 **Self-hosted IT operations intelligence for UK schools and Multi-Academy Trusts.**
 
-Groundskeeper runs on your own Windows Server, pulls data from 26 connectors covering the tools schools already use, and surfaces what needs attention — without anything leaving your network.
+Groundskeeper runs on your own Windows Server, pulls data from 27 connectors covering the tools schools already use, and surfaces what needs attention — without anything leaving your network.
 
 🔗 **[groundskeeper.ejjsoftware.com](https://groundskeeper.ejjsoftware.com)**
 
@@ -17,9 +17,9 @@ Groundskeeper runs on your own Windows Server, pulls data from 26 connectors cov
 - **SLT view** — read-only traffic-light dashboard for senior leadership. No jargon.
 - **AI assistant** — morning briefings, alert explanations, and plain-English summaries. Runs locally via Ollama (no data leaves your network) or via a cloud provider of your choice.
 
-## 26 connectors
+## 27 connectors
 
-**Cloud & SaaS:** Meraki, Action1, M365 Service Health, M365 Licences, Veeam, MIS Status (Bromcom/Arbor/SIMS/SEEMiS), School Services (16 UK services)
+**Cloud & SaaS:** Meraki, Action1, M365 Service Health, M365 Licences, Adobe Licences, Veeam, MIS Status (Bromcom/Arbor/SIMS/SEEMiS), School Services (16 UK services)
 
 **Security:** Domain Security, WatchGuard Firebox, WatchGuard Endpoint, SSL Cert Monitor
 
