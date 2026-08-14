@@ -50,10 +50,11 @@ Groundskeeper runs on your own Windows Server, pulls data from 26 connectors cov
 | Edition | Price | Connectors |
 |---|---|---|
 | Community | Free | 5 (your choice) |
-| Pro | £249/yr per school | Unlimited |
-| Central | £499/yr per group | Unlimited + group hub-and-spoke dashboard |
+| Pro — Primary | £100/yr per school | Unlimited |
+| Pro — Secondary | £250/yr per school | Unlimited |
+| Central | £99/yr per group | Aggregator-only dashboard (no local connectors of its own) |
 
-Community keys are free and renewed annually. Request one through the dashboard.
+Pro is priced by school phase — Primary or Secondary (or other) — looked up automatically. Community keys are free and renewed annually. Request one through the dashboard.
 
 ---
 
