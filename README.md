@@ -4,7 +4,7 @@
 
 Groundskeeper runs on your own Windows Server, pulls data from 27 connectors covering the tools schools already use, and surfaces what needs attention — without anything leaving your network.
 
-🔗 **[groundskeeper.ejjsoftware.com](https://groundskeeper.ejjsoftware.com)**
+🔗 **[groundskeeper.rsjsoftware.com](https://groundskeeper.rsjsoftware.com)**
 
 ---
 
@@ -42,7 +42,7 @@ Groundskeeper runs on your own Windows Server, pulls data from 27 connectors cov
 - **Download** the Windows installer from the [Releases](../../releases) page — bundles everything, no Python required
 - **Documentation** — [Wiki](../../wiki) for setup guides, connector configuration, and FAQs
 - **Community key** — request a free Community key through the dashboard on first run
-- **Website** — [groundskeeper.ejjsoftware.com](https://groundskeeper.ejjsoftware.com)
+- **Website** — [groundskeeper.rsjsoftware.com](https://groundskeeper.rsjsoftware.com)
 - **Discussions** — questions and community support in [Discussions](../../discussions)
 
 ## Pricing
@@ -60,14 +60,14 @@ Pro is priced by school phase — Primary or Secondary (or other) — looked up 
 
 ## About
 
-Groundskeeper is built by **EJJ Software**, founded by two school IT professionals, for the school IT community.
+Groundskeeper is built by **RSJ Software** -- a school IT professional who built it for himself first -- for the school IT community.
 
-- Privacy notice: [groundskeeper.ejjsoftware.com/privacy](https://groundskeeper.ejjsoftware.com/privacy)
-- Website: [ejjsoftware.com](https://ejjsoftware.com)
+- Privacy notice: [groundskeeper.rsjsoftware.com/privacy](https://groundskeeper.rsjsoftware.com/privacy)
+- Website: [rsjsoftware.com](https://rsjsoftware.com)
 - Reporting security issues: see [SECURITY.md](SECURITY.md)
 
 ## Licence
 
-© EJJ Software. All rights reserved.
+© RSJ Software. All rights reserved.
 
 This repository is provided for transparency, release distribution, and community support. No licence is granted for reuse, modification, or redistribution of the source code.

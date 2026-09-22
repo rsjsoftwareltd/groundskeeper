@@ -15,7 +15,7 @@ If you believe you have found a security vulnerability in Groundskeeper
 Worker licensing backend, or the installer), please report it privately
 rather than opening a public GitHub issue or discussing it publicly.
 
-**Email: security@ejjsoftware.com**
+**Email: security@rsjsoftware.com**
 
 Please include as much of the following as you can:
 
@@ -39,7 +39,7 @@ Please include as much of the following as you can:
 
 In scope: the Groundskeeper server application, the GKAgent endpoint
 agent, the Cloudflare Worker that issues and verifies licence keys
-(`api.ejjsoftware.com`), and the Windows installer.
+(`api.rsjsoftware.com`), and the Windows installer.
 
 Out of scope: third-party services Groundskeeper integrates with (e.g.
 Microsoft 365, Meraki, individual school infrastructure) -- please
@@ -55,6 +55,6 @@ time, so there's no unstated expectation either way.
 
 ---
 
-EJJ Software Ltd -- Groundskeeper is a self-hosted, GDPR-friendly IT
+RSJ Software -- Groundskeeper is a self-hosted, GDPR-friendly IT
 operations platform for UK schools and Multi-Academy Trusts. School
 data never leaves the school network without explicit configuration.
