@@ -13,7 +13,7 @@ Groundskeeper runs on your own Windows Server, pulls data from 27 connectors cov
 - **Single event feed** — infrastructure health, security events, and school system status in one place. Issues only, no noise.
 - **Domain Security** — SPF, DMARC, DKIM, MX, TLS, HTTPS headers, change detection. Replaces NCSC Mail Check and Web Check (retired 31 March 2026).
 - **Cyber Essentials dashboard** — RAG status across all five CE controls, populated from live connector data.
-- **GKAgent** — lightweight PowerShell agent deployed via GPO or Action1 for Windows client visibility: BitLocker, Defender, Windows Update compliance, local admin audit, SMART disk health, and more.
+- **RSJ Agent** — lightweight PowerShell agent deployed via GPO or Action1 for Windows client visibility: BitLocker, Defender, Windows Update compliance, local admin audit, SMART disk health, and more.
 - **SLT view** — read-only traffic-light dashboard for senior leadership. No jargon.
 - **AI assistant** — morning briefings, alert explanations, and plain-English summaries. Runs locally via Ollama (no data leaves your network) or via a cloud provider of your choice.
 
