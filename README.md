@@ -1,73 +1,95 @@
 # Groundskeeper
 
-**Self-hosted IT operations intelligence for UK schools and Multi-Academy Trusts.**
+**Self-hosted IT monitoring for UK schools and multi-academy trusts.**
 
-Groundskeeper runs on your own Windows Server, pulls data from 27 connectors covering the tools schools already use, and surfaces what needs attention — without anything leaving your network.
+Groundskeeper runs on a Windows Server in your school. It connects to the systems you
+already use -- your network, servers, backups, Microsoft 365, security tools and school
+services -- and shows you what needs attention in one feed. Nothing leaves your network
+unless you choose a cloud AI provider.
 
-🔗 **[groundskeeper.rsjsoftware.com](https://groundskeeper.rsjsoftware.com)**
+**Website:** [groundskeeper.rsjsoftware.com](https://groundskeeper.rsjsoftware.com)
 
 ---
 
 ## What it does
 
-- **Single event feed** — infrastructure health, security events, and school system status in one place. Issues only, no noise.
-- **Domain Security** — SPF, DMARC, DKIM, MX, TLS, HTTPS headers, change detection. Replaces NCSC Mail Check and Web Check (retired 31 March 2026).
-- **Cyber Essentials dashboard** — RAG status across all five CE controls, populated from live connector data.
-- **RSJ Agent** — lightweight PowerShell agent deployed via GPO or Action1 for Windows client visibility: BitLocker, Defender, Windows Update compliance, local admin audit, SMART disk health, and more.
-- **SLT view** — read-only traffic-light dashboard for senior leadership. No jargon.
-- **AI assistant** — morning briefings, alert explanations, and plain-English summaries. Runs locally via Ollama (no data leaves your network) or via a cloud provider of your choice.
-
-## 27 connectors
-
-**Cloud & SaaS:** Meraki, Action1, M365 Service Health, M365 Licences, Adobe Licences, Veeam, MIS Status (Bromcom/Arbor/SIMS/SEEMiS), School Services (16 UK services)
-
-**Security:** Domain Security, WatchGuard Firebox, WatchGuard Endpoint, SSL Cert Monitor
-
-**Infrastructure:** Windows Server, Windows Clients (GKAgent), Hyper-V, Active Directory, AD Account Health, Windows Event Log, DNS/DHCP, Internet Health, Endpoint Reports, Devices Left On Overnight, Exam Marking Software
-
-**Hardware:** HP/Aruba Switches (SNMP), UPS (SNMP), Dell iDRAC, Printers/MFDs (SNMP)
-
----
+- **One feed of what needs attention.** Problems only: a quiet feed means everything is
+  healthy. Each issue says what changed, when, and how long it has been going on.
+- **Connectors for the tools schools use** -- Meraki, HP/Aruba and other SNMP switches,
+  Windows servers and Active Directory, Hyper-V, Veeam, DNS and DHCP, WatchGuard, Dell
+  iDRAC, UPSes and printers, Microsoft 365, Action1, and the online services the school
+  depends on. The full list is on the [Connectors](../../wiki/Connectors) page of the wiki.
+- **The RSJ Agent** on your Windows PCs and servers reports BitLocker, Defender, updates,
+  disk health, local admins and more. Deploy it by Group Policy, your RMM, or
+  Groundskeeper's own push-deploy; it keeps itself up to date.
+- **Switches, understood.** Groundskeeper tells uplinks from device ports, so a PC being
+  switched off is not treated like a link to another switch going down, and keeps a
+  history of each port's traffic.
+- **Readiness reports** for Cyber Essentials and the DfE filtering and monitoring
+  standards, built from live data and exportable as a PDF.
+- **A traffic-light view for senior leaders**, in plain English.
+- **An AI assistant** for morning briefings and "why is this happening?" -- running
+  locally with Ollama by default, so no data leaves the school.
+- **Built for groups:** Central brings every school in a trust into one view, while each
+  school keeps its own Groundskeeper server.
+- **The essentials:** email, Teams and Slack alerts with quiet hours and maintenance
+  windows, two-factor sign-in, nightly database backups with one-click restore.
 
 ## Why self-hosted
 
-- **Your data stays on your network.** No cloud subscription, no third party seeing your infrastructure details.
-- **Read-only by design** — Groundskeeper observes and reports. It never modifies anything on connected systems.
-- **GDPR-friendly by default** — nothing leaves school unless you choose a cloud AI provider.
+- **Your data stays on your network.** No monitoring cloud, no third party holding a
+  map of your infrastructure.
+- **Read-only by design.** Groundskeeper observes and reports; it never changes anything
+  on the systems it monitors.
+- **GDPR-friendly by default.** Nothing leaves the school unless you choose to send it.
 
 ---
 
 ## Getting started
 
-- **Download** the Windows installer from the [Releases](../../releases) page — bundles everything, no Python required
-- **Documentation** — [Wiki](../../wiki) for setup guides, connector configuration, and FAQs
-- **Community key** — request a free Community key through the dashboard on first run
-- **Website** — [groundskeeper.rsjsoftware.com](https://groundskeeper.rsjsoftware.com)
-- **Discussions** — questions and community support in [Discussions](../../discussions)
+1. **Download** the installer from the [Releases](../../releases) page. It includes
+   everything it needs; there is nothing else to install first.
+2. **Install** on a Windows Server and open the dashboard. The setup wizard walks you
+   through your first connectors.
+3. **Request a free Community key** from the dashboard.
 
-## Pricing
+The [wiki](../../wiki) has the setup guide ([Getting Started](../../wiki/Getting-Started)),
+connector configuration and troubleshooting. System requirements are in each release's
+notes and on the website.
 
-| Edition | Price | Connectors |
-|---|---|---|
-| Community | Free | 5 (your choice) |
-| Pro — Primary | £100/yr per school | Unlimited |
-| Pro — Secondary | £250/yr per school | Unlimited |
-| Central | £99/yr per group | Aggregator-only dashboard (no local connectors of its own) |
+## Editions
 
-Pro is priced by school phase — Primary or Secondary (or other) — looked up automatically. Community keys are free and renewed annually. Request one through the dashboard.
+- **Community** -- free, up to five connectors of your choice, with a key renewed each
+  year.
+- **Pro** -- every connector, priced per school by phase.
+- **Central** -- for groups of schools: one view across the group.
+
+Prices are on the website: [groundskeeper.rsjsoftware.com/#pricing](https://groundskeeper.rsjsoftware.com/#pricing).
+
+## Support
+
+- **Questions and ideas:** [Discussions](../../discussions).
+- **Bugs:** [Issues](../../issues) on this repository.
+- **Paid editions:** email support as well.
+
+There is no helpdesk with opening hours. Groundskeeper is built to be installed and run
+by a school's own IT.
 
 ---
 
 ## About
 
-Groundskeeper is built by **RSJ Software** -- a school IT professional who built it for himself first -- for the school IT community.
+Groundskeeper is built by **RSJ Software** -- a school IT professional who built it for
+himself first -- for the school IT community.
 
 - Privacy notice: [groundskeeper.rsjsoftware.com/privacy](https://groundskeeper.rsjsoftware.com/privacy)
 - Website: [rsjsoftware.com](https://rsjsoftware.com)
-- Reporting security issues: see [SECURITY.md](SECURITY.md)
+- Reporting a security issue: see [SECURITY.md](SECURITY.md)
 
 ## Licence
 
-© RSJ Software. All rights reserved.
+Copyright RSJ Software. All rights reserved.
 
-This repository is provided for transparency, release distribution, and community support. No licence is granted for reuse, modification, or redistribution of the source code.
+This repository is provided for transparency, release distribution and community
+support. No licence is granted for reuse, modification or redistribution of the
+source code.
