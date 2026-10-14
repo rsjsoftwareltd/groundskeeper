@@ -1,3 +1,4 @@
+
 # Security Policy
 
 ## Supported versions
@@ -11,7 +12,7 @@ before reporting an issue, in case it is already fixed.
 ## Reporting a vulnerability
 
 If you believe you have found a security vulnerability in Groundskeeper
-(the server application, the GKAgent endpoint agent, the Cloudflare
+(the server application, the RSJ Agent on endpoints, the Cloudflare
 Worker licensing backend, or the installer), please report it privately
 rather than opening a public GitHub issue or discussing it publicly.
 
@@ -37,8 +38,8 @@ Please include as much of the following as you can:
 
 ### Scope
 
-In scope: the Groundskeeper server application, the GKAgent endpoint
-agent, the Cloudflare Worker that issues and verifies licence keys
+In scope: the Groundskeeper server application, the RSJ Agent and its
+Groundskeeper module on endpoints, the Cloudflare Worker that issues and verifies licence keys
 (`api.rsjsoftware.com`), and the Windows installer.
 
 Out of scope: third-party services Groundskeeper integrates with (e.g.
@@ -55,6 +56,6 @@ time, so there's no unstated expectation either way.
 
 ---
 
-RSJ Software -- Groundskeeper is a self-hosted, GDPR-friendly IT
+RSJ Software Ltd -- Groundskeeper is a self-hosted, GDPR-friendly IT
 operations platform for UK schools and Multi-Academy Trusts. School
 data never leaves the school network without explicit configuration.
