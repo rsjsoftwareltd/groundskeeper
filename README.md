@@ -57,6 +57,10 @@ The [wiki](../../wiki) has the setup guide ([Getting Started](../../wiki/Getting
 connector configuration and troubleshooting. System requirements are in each release's
 notes and on the website.
 
+**Prefer to watch?** Short how-to videos on YouTube: [getting started](https://www.youtube.com/playlist?list=PLQzYokzyzaLU) (install, your
+first connector, the agent) and [day to day](https://www.youtube.com/playlist?list=PLO5IdpFZQBsE) (the dashboard, alerts, the leaders'
+view, Cyber Essentials and DfE readiness).
+
 ## Editions
 
 - **Community** -- free, up to five connectors of your choice, with a key renewed each
